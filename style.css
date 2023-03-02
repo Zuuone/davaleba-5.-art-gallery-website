@@ -1,0 +1,932 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 375px;
+  height: 2610px;
+  background: #f2f2f2;
+}
+
+.main_title {
+  color: #151515;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 55px;
+  text-transform: uppercase;
+  margin-left: 16px;
+  margin-top: 32px;
+}
+.text {
+  display: none;
+}
+.desc_add_link {
+  display: none;
+}
+
+.title-2nd_desc {
+  display: none;
+}
+
+.intro_p {
+  font-family: "outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+  margin-left: 16px;
+  margin-top: 32px;
+  width: 343px;
+  height: 112px;
+}
+
+.address_link {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.link_style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 204px;
+  height: 72px;
+  background-color: #151515;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.64px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 16px;
+  margin-top: 32px;
+}
+
+/* .address {
+    
+  } */
+
+.arrow {
+  display: flex;
+  width: 56px;
+  height: 72px;
+  background-color: #d5966c;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.img_2nd {
+  width: 343px;
+  height: 320px;
+  margin-left: 16px;
+  margin-top: 120px;
+}
+
+.title-2nd {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #151515;
+  margin-left: 16px;
+  margin-top: 25px;
+  width: 343px;
+}
+
+.gallery_dscrpt {
+  font-family: "outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+  margin-left: 16px;
+  margin-top: 35px;
+  width: 343px;
+  height: 112px;
+}
+
+.example_1 {
+  width: 343px;
+  height: 480px;
+  margin-left: 16px;
+  margin-top: 32px;
+}
+
+.example_2 {
+  width: 343px;
+  height: 200px;
+  margin: 16px;
+}
+
+.bfr_ftr {
+  width: 343px;
+  height: 293px;
+  margin-left: 16px;
+  background-color: #151515;
+}
+
+.calling {
+  padding-left: 24px;
+  padding-top: 48px;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.p_calling_desc {
+  display: none;
+}
+.p_calling {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 24px;
+}
+
+.ftr {
+  margin-top: 120px;
+  width: 375px;
+  height: auto;
+  background-color: #151515;
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.ftr_header {
+  color: white;
+  padding-left: 32px;
+  padding-top: 48px;
+}
+
+.ftr_p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 38px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 32px;
+  padding-top: 38px;
+  padding-bottom: 48px;
+}
+
+.fb {
+  fill: white;
+}
+
+.insta {
+  fill: white;
+}
+
+.twit {
+  fill: white;
+}
+
+@media screen and (min-width: 775px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .p_calling_desc {
+    display: none;
+  }
+
+  .main {
+    width: 775px;
+    max-width: 100%;
+    height: 2271px;
+    background: #f2f2f2;
+    position: relative;
+  }
+  .intro_img {
+    display: none;
+  }
+  .img_old {
+    position: absolute;
+    width: 437px;
+    height: 700px;
+    left: 0;
+    top: 0;
+    background-image: url(./tablet/image-hero.jpg);
+  }
+  .main_title {
+    width: 339px;
+    height: 130px;
+    color: #151515;
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 65px;
+    text-transform: uppercase;
+    margin-left: 389px;
+    margin-top: 145px;
+  }
+
+  .intro_p {
+    width: 339px;
+    height: 112px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin-left: 389px;
+    margin-top: 48px;
+  }
+
+  .address_link {
+    position: absolute;
+    top: 451px;
+    left: 370px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .link_style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 204px;
+    height: 72px;
+    background-color: #151515;
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #ffffff;
+  }
+
+  /* .address {
+        
+      } */
+
+  .arrow {
+    display: flex;
+    width: 56px;
+    height: 72px;
+    background-color: #d5966c;
+    margin-top: 32px;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img_2nd {
+    width: 343px;
+    height: 320px;
+    margin-left: 16px;
+    margin-top: 120px;
+    display: none;
+  }
+
+  .tablet_2nd_img {
+    position: absolute;
+    top: 820px;
+    left: 330px;
+    background-image: url(./tablet/image-grid-1.jpg);
+    width: 398px;
+    height: 400px;
+  }
+
+  .title-2nd {
+    position: absolute;
+    top: 858px;
+    left: 40px;
+    width: 223px;
+    height: 135px;
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #151515;
+    margin: 0;
+  }
+
+  .gallery_dscrpt {
+    position: absolute;
+    top: 1015px;
+    left: 39px;
+    width: 223px;
+    height: 140px;
+    font-family: "outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin: 0;
+  }
+
+  .example_1 {
+    width: 343px;
+    height: 480px;
+    margin-left: 16px;
+    margin-top: 32px;
+    display: none;
+  }
+
+  .tablet_example_1 {
+    background-image: url(./tablet/image-grid-2.jpg);
+    position: absolute;
+    top: 1231px;
+    left: 39px;
+    width: 398px;
+    height: 720px;
+    margin: 0;
+  }
+  .example_2 {
+    width: 343px;
+    height: 200px;
+    margin: 16px;
+    display: none;
+  }
+
+  .tablet_example_2 {
+    background-image: url(./tablet/image-grid-3.jpg);
+    width: 280px;
+    height: 313px;
+    position: absolute;
+    top: 1231px;
+    left: 448px;
+  }
+
+  .bfr_ftr {
+    position: absolute;
+    top: 1555px;
+    left: 448px;
+    width: 280px;
+    height: 396px;
+    margin-left: 16px;
+    background-color: #151515;
+    margin: 0;
+  }
+
+  .calling {
+    padding-left: 29px;
+    padding-top: 85px;
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .p_calling {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    padding: 24px;
+  }
+
+  .ftr {
+    position: absolute;
+    top: 2071px;
+    width: 100%;
+    height: 216px;
+    background-color: #151515;
+    font-family: "Big Shoulders Display";
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ftr_header {
+    color: white;
+    padding-left: 39px;
+    padding-top: 56px;
+    line-height: 80%;
+  }
+
+  .ftr_p {
+    width: 281px;
+    height: 104px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    padding: 0;
+    position: absolute;
+    top: 56px;
+    left: 214px;
+  }
+
+  /* .logos {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 20px;
+    gap: 20px;
+    padding-left: 32px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+  } */
+
+  .tablet_logos {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 628px;
+    top: 56px;
+    padding: 0;
+  }
+  .logo_img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .fb {
+    fill: white;
+  }
+
+  .insta {
+    fill: white;
+  }
+
+  .twit {
+    fill: white;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .main {
+    width: 1440px;
+    max-width: 100%;
+    height: 2554px;
+    background: #f2f2f2;
+    position: relative;
+  }
+
+  .main_title {
+    display: none;
+  }
+
+  .relative {
+    position: relative;
+    width: 500px;
+    height: 200px;
+  }
+
+  .black_box {
+    width: 450px;
+    height: 799px;
+    background-color: #151515;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .intro_img {
+    display: none;
+  }
+  .img_old {
+    background-image: url(./desktop/image-hero.jpg);
+    width: 540px;
+    height: 800px;
+    position: absolute;
+    left: 450px;
+    top: 0;
+  }
+
+  .text {
+    display: block;
+    width: 514px;
+    height: 176px;
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 189px;
+    left: 165px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, white 55%, black 45%);
+  }
+
+  .intro_p {
+    width: 350px;
+    height: 160px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    margin-left: 475px;
+    margin-top: 185px;
+  }
+
+  .address_link {
+    position: absolute;
+    top: 414px;
+    left: 475px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .address_link {
+    display: none;
+  }
+
+  .desc_add_link {
+    position: relative;
+    width: 260px;
+    height: 72px;
+    background-image: linear-gradient(90deg, black 204px, #d5966c 56px);
+    color: #ffffff;
+    position: absolute;
+    left: 475px;
+    top: 414px;
+    display: block;
+  }
+
+  .desc_add_link:hover {
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #d5966c 204px, black 56px);
+  }
+
+  .location {
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #ffffff;
+    position: absolute;
+    top: 24px;
+    left: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .arrow_pos {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+
+  .link_style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 204px;
+    height: 72px;
+    background-color: #151515;
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  /* .link_style:hover {
+    cursor: pointer;
+    background-color: #d5966c;
+  } */
+
+  /* .address {
+        
+      } */
+
+  .arrow {
+    display: flex;
+    width: 56px;
+    height: 72px;
+    background-color: #d5966c;
+    margin: 0;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .arrow:hover {
+    background-color: #151515;
+  } */
+
+  .img_2nd {
+    width: 343px;
+    height: 320px;
+    margin-left: 16px;
+    margin-top: 120px;
+    display: none;
+  }
+
+  /* .middle {
+    width: 1440px;
+  } */
+
+  .tablet_2nd_img {
+    position: absolute;
+    top: 940px;
+    left: 640px;
+    background-image: url(./desktop/image-grid-1.jpg);
+    width: 635px;
+    height: 400px;
+  }
+
+  .title-2nd {
+    position: absolute;
+    top: 1000px;
+    left: 165px;
+    width: 350px;
+    height: 130px;
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;
+    margin: 0;
+    display: none;
+  }
+
+  .title-2nd_desc {
+    display: block;
+    position: absolute;
+    top: 1000px;
+    left: 165px;
+    width: 350px;
+    height: 130px;
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;
+    margin: 0;
+  }
+
+  .gallery_dscrpt {
+    position: absolute;
+    top: 1140px;
+    left: 165px;
+    width: 350px;
+    height: 128px;
+    font-family: "outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    margin: 0;
+  }
+
+  .example_1 {
+    width: 343px;
+    height: 480px;
+    margin-left: 16px;
+    margin-top: 32px;
+    display: none;
+  }
+
+  .tablet_example_1 {
+    background-image: url(./desktop/image-grid-2.jpg);
+    top: 1365px;
+    left: 165px;
+    width: 635px;
+    height: 720px;
+    margin: 0;
+  }
+  .example_2 {
+    width: 343px;
+    height: 200px;
+    margin: 16px;
+    display: none;
+  }
+
+  .tablet_example_2 {
+    background-image: url(./desktop/image-grid-3.jpg);
+    width: 445px;
+    height: 313px;
+    position: absolute;
+    top: 1365px;
+    left: 830px;
+  }
+
+  .bfr_ftr {
+    position: absolute;
+    top: 1708px;
+    left: 830px;
+    width: 445px;
+    height: 377px;
+    margin-left: 16px;
+    background-color: #151515;
+    margin: 0;
+  }
+
+  .calling {
+    width: 350px;
+    height: 120px;
+    padding-left: 48px;
+    padding-top: 65px;
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .p_calling {
+    width: 350px;
+    height: 96px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    padding: 0;
+    margin-left: 48px;
+    margin-top: 88px;
+    display: none;
+  }
+
+  .p_calling_desc {
+    display: block;
+    width: 350px;
+    height: 96px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    padding: 0;
+    margin-left: 48px;
+    margin-top: 88px;
+  }
+
+  .ftr {
+    position: absolute;
+    top: 2310px;
+    width: 1440px;
+    height: 244px;
+    background-color: #151515;
+    font-family: "Big Shoulders Display";
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ftr_header {
+    color: white;
+    padding: 0;
+    line-height: 100%;
+    position: absolute;
+    left: 165px;
+    top: 70px;
+  }
+
+  .ftr_p {
+    width: 430px;
+    height: 84px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    padding: 0;
+    position: absolute;
+    top: 70px;
+    left: 465px;
+  }
+
+  /* .logos {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 20px;
+    gap: 20px;
+    padding-left: 32px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+  } */
+
+  .tablet_logos {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 1200px;
+    top: 75px;
+    padding: 0;
+  }
+  .logo_img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .fb {
+    fill: white;
+  }
+
+  .fb:hover {
+    cursor: pointer;
+    fill: #d5966c;
+  }
+
+  .insta {
+    fill: white;
+  }
+
+  .insta:hover {
+    cursor: pointer;
+    fill: #d5966c;
+  }
+
+  .twit {
+    fill: white;
+  }
+
+  .twit:hover {
+    cursor: pointer;
+    fill: #d5966c;
+  }
+}
